@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Push The Vinyl</string>
+    <string name="main_label">Push The Vinyl</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in_button_text">sign in</string>
+    <string name="navigation_sub_item_1">item 1</string>
+    <string name="navigation_sub_item_2">item 2</string>
+    <string name="navigation_subheader">sub header</string>
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_close">drawer close</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="drawer_header_margin">16dp</dimen>
+</resources>
