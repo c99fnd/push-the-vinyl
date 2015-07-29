@@ -10,4 +10,6 @@
     <string name="navigation_subheader">sub header</string>
     <string name="navigation_drawer_open">drawer open</string>
     <string name="navigation_drawer_close">drawer close</string>
+    <string name="menu_sign_out">Sign Out</string>
+    <string name="add_record_label">Add New Record</string>
 </resources>

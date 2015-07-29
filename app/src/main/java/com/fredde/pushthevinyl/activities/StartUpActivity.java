@@ -4,15 +4,24 @@ import android.app.Activity;
 import android.os.Bundle;
 
 /**
- * Created by Fredde on 23/06/2015.
+ * Responsible for checking signed in status and launching appropriate activity.
  */
 public class StartUpActivity extends Activity {
+
+    /**
+     * Debug flag.
+     */
+    private static final boolean SIGNED_IN = true ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        MainActivity.start(this);
+        if(SIGNED_IN) {
+            MainActivity.start(this);
+        } else {
+            SignInActivity.start(this);
+        }
         finish();
     }
 }

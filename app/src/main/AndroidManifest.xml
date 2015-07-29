@@ -21,7 +21,13 @@
         </activity>
         <activity
             android:name=".activities.SignInActivity"
-            android:label="@string/sign_in_label">
+            android:label="@string/sign_in_label"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+        </activity>
+        <activity
+            android:name=".activities.AddRecordAcitvity"
+            android:label="@string/add_record_label"
+            android:windowSoftInputMode="stateVisible|adjustResize">
         </activity>
     </application>
 
